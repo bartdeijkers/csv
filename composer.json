@@ -1,6 +1,6 @@
 {
     "name": "bartdeijkers/csv",
-    "description": "CSV import/export library",
+    "description": "CSV import/export library with named csv header support",
     "keywords": ["csv", "import", "export"],
     "homepage": "https://github.com/bartdeijkers/csv",
     "license": "MIT",
@@ -35,7 +35,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Goodby\\CSV": "src/"
+            "bartdeijkers\\CSV": "src/"
         }
     }
 }
