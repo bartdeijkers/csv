@@ -1,8 +1,8 @@
 {
-    "name": "bartdeijkers/csv",
-    "description": "CSV import/export library with named csv header support",
+    "name": "goodby/csv",
+    "description": "CSV import/export library",
     "keywords": ["csv", "import", "export"],
-    "homepage": "https://github.com/bartdeijkers/csv",
+    "homepage": "https://github.com/goodby/csv",
     "license": "MIT",
     "authors": [
         {
@@ -16,12 +16,7 @@
             "email": "suinyeze@gmail.com",
             "homepage": "https://www.facebook.com/suinyeze",
             "role": "Developer, Renaming Specialist"
-        },
-        {
-            "name": "bartdeijkers",
-            "role": "Developer"
         }
-
     ],
     "require": {
         "php": ">=5.3.2",
@@ -35,7 +30,7 @@
     },
     "autoload": {
         "psr-0": {
-            "bartdeijkers\\CSV": "src/"
+            "Goodby\\CSV": "src/"
         }
     }
 }
